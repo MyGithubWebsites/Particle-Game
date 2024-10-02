@@ -1,0 +1,114 @@
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    font-size: 12px;
+}
+
+.screen
+{
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: #0d0d0d;
+    color: #e5e5e5;
+    position: absolute;
+}
+
+.header
+{
+    margin: 10px;
+    text-align: center;
+}
+
+.body
+{}
+
+.flexRow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.canvas
+{
+    width: min(100vw, 100vh);
+    height: min(100vw, 100vh);
+    
+    outline: 1px solid #2c2c2c;
+    outline-offset: -1px;
+    
+    // touch-action: pinch-zoom;
+}
+
+.buttons
+{
+    flex-grow: 1;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.button
+{
+    min-width: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    
+    border-radius: 10px;
+    background-color: #d14534;
+    color: white;
+}
+
+
+.box
+{}
+
+.card
+{
+    width: calc(100% - 20px);
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    background-color: #2f2f2f;
+}
+
+.cardHead
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #3b3b3b;
+    border-radius: 10px 10px 0 0;
+}
+
+.divideSpace
+{
+    font-size: 12px;
+    
+    width: calc(100% - 20px);
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divider
+{
+    width: calc(100% - 20px);
+    height: 1px;
+    margin: 0 10px;
+    background-color: #3e3e3e;
+}
